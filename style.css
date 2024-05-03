@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Inter, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 /* Header and hero banner */
@@ -11,7 +11,7 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: #1f2937;
-    padding: 0 200px;
+    padding: 0 13%;
     height: 64px;
 }
 
@@ -39,7 +39,7 @@ a {
 }
 
 .heroBanner {
-    padding: 0 200px;
+    padding: 0 13%;
     background-color: #1f2937;
     height: 500px;
     display: flex;
@@ -68,7 +68,7 @@ a {
     border-radius: 6px;
     background-color: #3883f6;
     width: 128px;
-    height: 32px;
+    height: 36px;
     font-size: 18px;
     font-weight: 600;
 }
@@ -124,3 +124,28 @@ a {
     color: #80898f;
 }
 
+/* Inpiring quote section */
+.quoteSection {
+    height: 420px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 0 20%;
+    color: #1f2937;
+}
+
+.quote {
+    font-size: 36px;
+    /* font-style: italic; */
+    font-weight: 100;
+}
+
+.quoteSignature {
+    font-size: 24px;
+    align-self: flex-end;
+    font-weight: bolder;
+    padding-right: 32px;
+}
