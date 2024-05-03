@@ -139,7 +139,7 @@ button {
 
 .quote {
     font-size: 36px;
-    /* font-style: italic; */
+    font-style: italic;
     font-weight: 100;
 }
 
@@ -152,7 +152,7 @@ button {
 
 /* Call to action */
 .callToActionSection {
-    height: 350px;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -168,11 +168,6 @@ button {
     justify-content: space-evenly;
 }
 
-/* .signUpBannerWrapperLeft {
-    display: flex;
-    flex-direction: column;
-} */
-
 .signUpBannerHeader {
     font-size: 30px;
     font-weight: bolder;
@@ -186,4 +181,14 @@ button {
 
 .signUpBannerButton {
     border: 2px solid #f9faf8;
+}
+
+/* Footer */
+footer {
+    height: 80px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
